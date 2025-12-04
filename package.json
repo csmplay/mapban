@@ -28,7 +28,7 @@
     "apps/*"
   ],
   "devDependencies": {
-    "turbo": "2.6.2"
+    "turbo": "2.6.3"
   },
   "dependencies": {
     "dotenv-cli": "^11.0.0",
