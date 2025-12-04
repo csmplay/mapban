@@ -1,6 +1,6 @@
 {
   "name": "csm-mapban",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": true,
   "main": "index.js",
   "packageManager": "bun@1.2.11",
