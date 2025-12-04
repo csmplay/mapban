@@ -14,7 +14,7 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.1",
+    "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "9.39.1",
     "@types/cors": "2.8.19",
     "@types/express": "5.0.5",
