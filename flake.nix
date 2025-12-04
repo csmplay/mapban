@@ -15,7 +15,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
       devShells.default = pkgs.mkShell {
-        buildInputs = with pkgs; [bun git reuse docker];
+        buildInputs = with pkgs; [bun git reuse docker nodejs];
         shellHook = "bun install --frozen-lockfile";
       };
     });
