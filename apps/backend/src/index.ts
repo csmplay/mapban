@@ -49,6 +49,13 @@ app.get("/api/coinFlip", (_req, res) => {
   res.json({ coinFlip: globalCoinFlip });
 });
 
+app.get("/api/runtime-env", (_req, res) => {
+  res.json({
+    NEXT_PUBLIC_CDN_BASE: process.env.NEXT_PUBLIC_CDN_BASE ?? "https://cdn.example.com",
+    NEXT_PUBLIC_CDN_LOGO: process.env.NEXT_PUBLIC_CDN_LOGO ?? "logo.svg",
+  });
+});
+
 const startGame = (lobbyId: string) => {
   const lobby = lobbies.get(lobbyId);
   if (lobby) {
