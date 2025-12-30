@@ -19,7 +19,7 @@
   "devDependencies": {
     "@nx/eslint": "22.3.3",
     "@nx/next": "22.3.3",
-    "eslint": "~8.57.0",
+    "eslint": "~9.39.0",
     "nx": "22.3.3",
     "prettier": "^3.5.3"
   },
