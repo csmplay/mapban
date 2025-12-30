@@ -7,7 +7,6 @@ WORKDIR /app
 
 FROM base AS builder
 COPY package.json yarn.lock .yarnrc.yml ./
-COPY .yarn ./.yarn
 COPY apps/backend ./apps/backend
 RUN corepack yarn workspaces focus backend && \
     corepack yarn workspace backend build
@@ -15,7 +14,6 @@ RUN corepack yarn workspaces focus backend && \
 FROM base AS runner
 ENV NODE_ENV=production
 COPY package.json yarn.lock .yarnrc.yml ./
-COPY .yarn ./.yarn
 COPY apps/backend/package.json ./apps/backend/package.json
 RUN corepack yarn workspaces focus backend --production
 COPY --from=builder /app/apps/backend/dist ./apps/backend/dist

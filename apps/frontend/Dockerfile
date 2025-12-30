@@ -8,7 +8,6 @@ WORKDIR /app
 FROM base AS builder
 ENV NEXT_TELEMETRY_DISABLED=1
 COPY package.json yarn.lock .yarnrc.yml ./
-COPY .yarn ./.yarn
 COPY apps/frontend ./apps/frontend
 RUN corepack yarn workspaces focus frontend && \
     corepack yarn workspace frontend build
