@@ -1,7 +1,4 @@
 node_modules
-.idea
-apps/backend/node_modules
-apps/frontend/node_modules
 apps/backend/dist
 .turbo
 .env
@@ -9,3 +6,4 @@ apps/backend/dist
 result
 result-*
 .direnv/
+.yarn/

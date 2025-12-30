@@ -5,6 +5,11 @@
 
 set -euo pipefail
 
+if [ -z "${1:-}" ]; then
+  echo "Usage: $0 <patch|minor|major>" >&2
+  exit 1
+fi
+
 npm version "$1" || false
 VERSION=$(jq -r '.version' package.json)
 echo "$VERSION" >apps/frontend/public/version || false

@@ -2,36 +2,25 @@
   "name": "csm-mapban",
   "version": "0.6.3",
   "private": true,
-  "main": "index.js",
-  "packageManager": "bun@1.2.11",
-  "engines": {
-    "npm": "use bun",
-    "yarn": "use bun",
-    "pnpm": "use bun",
-    "bun": ">=1.2.11"
-  },
+  "packageManager": "yarn@4.5.1",
   "scripts": {
-    "dev": "dotenv -- turbo run dev --parallel",
-    "build": "dotenv -- turbo run build",
-    "lint": "dotenv -- turbo run lint",
+    "turbo": "dotenvx run -- turbo",
+    "dev": "yarn turbo run dev --parallel",
+    "build": "yarn turbo run build",
+    "lint": "yarn turbo run lint",
     "fmt": "prettier --write apps/*/src",
-    "start": "dotenv -- turbo run start",
-    "patch": "./version.sh patch",
-    "minor": "./version.sh minor",
-    "major": "./version.sh major"
+    "start": "yarn turbo run start",
+    "ver": "sh ./version.sh"
   },
-  "keywords": [],
   "author": "CyberSport Masters",
   "license": "AGPL-3.0-only",
-  "description": "",
   "workspaces": [
     "apps/*"
   ],
   "devDependencies": {
+    "@dotenvx/dotenvx": "^1.51.4",
+    "nx": "^22.3.3",
+    "prettier": "^3.5.3",
     "turbo": "2.7.2"
-  },
-  "dependencies": {
-    "dotenv-cli": "^11.0.0",
-    "prettier": "^3.5.3"
   }
 }

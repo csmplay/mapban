@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && cp -r ./public ./.next/standalone/apps/frontend/ && cp -r ./.next/static ./.next/standalone/apps/frontend/.next/",
-    "start": "bun run .next/standalone/apps/frontend/server.js",
+    "start": "node .next/standalone/apps/frontend/server.js",
     "lint": "eslint ."
   },
   "dependencies": {

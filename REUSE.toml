@@ -4,7 +4,7 @@ SPDX-PackageSupplier = "CyberSport Masters <git@csmpro.ru>"
 SPDX-PackageDownloadLocation = "https://git.csmpro.ru/csmpro/mapban"
 
 [[annotations]]
-path = ["**/.gitignore", "apps/frontend/public/version", "apps/frontend/public/robots.txt", ".gitignore", ".envrc", "package.json", ".npmrc", "bun.lock", "**/package.json", "turbo.json", "apps/**/tsconfig.json", "apps/**/.eslintrc.json", "apps/**/eslint.config.mjs", "apps/frontend/components.json", "apps/backend/nodemon.json", ".forgejo/workflows/ci.yml", ".forgejo/workflows/cd.yml", "renovate.json", "flake.nix", "flake.lock"]
+path = ["**/.gitignore", "apps/frontend/public/version", "apps/frontend/public/robots.txt", ".gitignore", ".envrc", "package.json", ".npmrc", "yarn.lock", "**/package.json", "turbo.json", "apps/**/tsconfig.json", "apps/**/.eslintrc.json", "apps/**/eslint.config.mjs", "apps/frontend/components.json", "apps/backend/nodemon.json", ".forgejo/workflows/ci.yml", ".forgejo/workflows/cd.yml", "renovate.json", "flake.lock"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024-2025 CyberSport Masters <git@csmpro.ru>"
 SPDX-License-Identifier = "AGPL-3.0-only"

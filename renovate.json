@@ -9,7 +9,7 @@
       "allowedVersions": "4.0.0"
     },
     {
-      "matchDatasources": ["bun"],
+      "matchDatasources": ["yarn"],
       "abandonmentThreshold": "18 months"
     },
     {
