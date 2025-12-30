@@ -2,7 +2,7 @@
   "name": "csm-mapban",
   "version": "0.6.3",
   "private": true,
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.12.0",
   "scripts": {
     "turbo": "dotenvx run -- turbo",
     "dev": "yarn turbo run dev --parallel",
