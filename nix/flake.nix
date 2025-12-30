@@ -1,5 +1,8 @@
+# SPDX-FileCopyrightText: 2025 CyberSport Masters <git@csmpro.ru>
+# SPDX-License-Identifier: AGPL-3.0-only
+
 {
-  description = "CSM Mapban";
+  description = "CSM mapban";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -15,8 +18,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
       devShells.default = pkgs.mkShell {
-        buildInputs = with pkgs; [bun git reuse docker nodejs];
-        shellHook = "bun install --frozen-lockfile";
+        buildInputs = with pkgs; [nodejs corepack git reuse docker];
       };
     });
 }
