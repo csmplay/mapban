@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2025 CyberSport Masters <git@csmpro.ru>
 # SPDX-License-Identifier: AGPL-3.0-only
 
-FROM node:24-alpine AS base
+FROM node:24-alpine@sha256:c921b97d4b74f51744057454b306b418cf693865e73b8100559189605f6955b8 AS base
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
