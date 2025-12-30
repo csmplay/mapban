@@ -7,3 +7,7 @@ result
 result-*
 .direnv/
 .yarn/
+
+
+.nx/cache
+.nx/workspace-data

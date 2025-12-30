@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && cp -r ./public ./.next/standalone/apps/frontend/ && cp -r ./.next/static ./.next/standalone/apps/frontend/.next/",
+    "dev": "nx next:dev",
+    "build": "nx next:build && cp -r ./public ./.next/standalone/apps/frontend/ && cp -r ./.next/static ./.next/standalone/apps/frontend/.next/",
     "start": "node .next/standalone/apps/frontend/server.js",
-    "lint": "eslint ."
+    "lint": "nx eslint:lint"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.3.2",

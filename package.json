@@ -4,12 +4,11 @@
   "private": true,
   "packageManager": "yarn@4.5.1",
   "scripts": {
-    "turbo": "dotenvx run -- turbo",
-    "dev": "yarn turbo run dev --parallel",
-    "build": "yarn turbo run build",
-    "lint": "yarn turbo run lint",
+    "dev": "nx run-many -t dev",
+    "build": "nx run-many -t build",
+    "lint": "nx run-many -t lint",
     "fmt": "prettier --write apps/*/src",
-    "start": "yarn turbo run start",
+    "start": "nx run-many -t start",
     "ver": "sh ./version.sh"
   },
   "author": "CyberSport Masters",
@@ -18,9 +17,15 @@
     "apps/*"
   ],
   "devDependencies": {
-    "@dotenvx/dotenvx": "^1.51.4",
-    "nx": "^22.3.3",
-    "prettier": "^3.5.3",
-    "turbo": "2.7.2"
+    "@nx/eslint": "22.3.3",
+    "@nx/next": "22.3.3",
+    "eslint": "~8.57.0",
+    "nx": "22.3.3",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "next": "~16.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
