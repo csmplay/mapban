@@ -21,8 +21,8 @@ jobs:
       - name: Run REUSE Compliance Check
         uses: https://github.com/fsfe/reuse-action@676e2d560c9a403aa252096d99fcab3e1132b0f5 # v6
 
-  lint:
-    name: Code Linting
+  lint-and-build:
+    name: Lint and Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -41,21 +41,6 @@ jobs:
 
       - name: Lint frontend
         run: corepack yarn workspace frontend lint
-
-  test-building:
-    name: Test Building
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
-
-      - uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6
-        with:
-          node-version: '24'
-          package-manager-cache: false
-
-      - name: Install dependencies
-        run: corepack yarn install --immutable
 
       - name: Build
         env:
