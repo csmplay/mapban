@@ -117,7 +117,7 @@ jobs:
           tar -czf release-tmp/release.tar.gz csm-mapban
 
       - name: Release
-        uses: https://code.forgejo.org/actions/forgejo-release@fc0488c944626f9265d87fbc4dd6c08f78014c63 # v2.7.3
+        uses: https://code.forgejo.org/actions/forgejo-release@834804bcd60e331c1ac06c0fde1ffda3b487aeec # v2.8.0
         with:
           direction: upload
           url: ${{ github.server_url }}
