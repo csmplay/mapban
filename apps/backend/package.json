@@ -22,7 +22,7 @@
     "@typescript-eslint/eslint-plugin": "8.50.1",
     "@typescript-eslint/parser": "8.50.1",
     "eslint": "9.39.2",
-    "nodemon": "3.1.11",
+    "nodemon": "3.1.14",
     "ts-node": "10.9.2",
     "typescript": "5.9.3"
   }
