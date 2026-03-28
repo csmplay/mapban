@@ -4106,7 +4106,7 @@ __metadata:
     glob: "npm:13.0.0"
     input-otp: "npm:^1.4.2"
     lru-cache: "npm:11.2.4"
-    lucide-react: "npm:^0.562.0"
+    lucide-react: "npm:^1.0.0"
     next: "npm:16.1.1"
     postcss: "npm:8.5.6"
     react: "npm:19.2.3"
@@ -5268,12 +5268,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.562.0":
-  version: 0.562.0
-  resolution: "lucide-react@npm:0.562.0"
+"lucide-react@npm:^1.0.0":
+  version: 1.7.0
+  resolution: "lucide-react@npm:1.7.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/c713a2490916e42c678b9df0d7309d8cdb715af1d7139c7eb49c45547901b276a7cf722548012a668dc0e337eeadf5141d5af8c8fcda6721fc58fb2d288efcba
+  checksum: 10c0/bf913e1c9b8438fd1e19dbee602b4c1a596109faadd361b452e210135e51ff1147cbce9c1aa686a9c419f01541540536507a03202bc2cebebc04eb9a3cf8be2e
   languageName: node
   linkType: hard
 
