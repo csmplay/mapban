@@ -29,7 +29,7 @@
     "tailwindcss": "^4.0.5"
   },
   "devDependencies": {
-    "@eslint/config-array": "0.23.0",
+    "@eslint/config-array": "0.23.5",
     "@eslint/object-schema": "3.0.0",
     "@tailwindcss/postcss": "4.1.18",
     "@types/node": "25.0.3",
