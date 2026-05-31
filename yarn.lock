@@ -4105,7 +4105,7 @@ __metadata:
     framer-motion: "npm:^12.23.12"
     glob: "npm:13.0.0"
     input-otp: "npm:^1.4.2"
-    lru-cache: "npm:11.2.4"
+    lru-cache: "npm:11.5.1"
     lucide-react: "npm:^0.562.0"
     next: "npm:16.1.1"
     postcss: "npm:8.5.6"
@@ -5252,7 +5252,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:11.2.4, lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
+"lru-cache@npm:11.5.1":
+  version: 11.5.1
+  resolution: "lru-cache@npm:11.5.1"
+  checksum: 10c0/7b341cea79a8efe9c6a6f20c8757a77eca5b25d7ff983ccf4e11e547b81f6787824baa1c84705251dff84ab4ffac85717ac354b9d02e465f86a9f8b166409979
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
   version: 11.2.4
   resolution: "lru-cache@npm:11.2.4"
   checksum: 10c0/4a24f9b17537619f9144d7b8e42cd5a225efdfd7076ebe7b5e7dc02b860a818455201e67fbf000765233fe7e339d3c8229fc815e9b58ee6ede511e07608c19b2
