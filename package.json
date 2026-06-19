@@ -2,7 +2,7 @@
   "name": "csm-mapban",
   "version": "0.6.3",
   "private": true,
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.17.0",
   "scripts": {
     "dev": "nx run-many -t dev",
     "build": "nx run-many -t build",
