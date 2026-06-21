@@ -12,7 +12,7 @@
 CSM Mapban is a modern map veto and pick tool for tournaments, featuring
 live-synced lobbies and OBS-ready overlays.
 
-![CSM Mapban screenshot](https://cdn.csmpro.ru/mapban/screenshot.png)
+![CSM Mapban screenshot](https://cdn.csmpro.ru/assets/mapban/screenshot.png)
 
 ## Features
 
