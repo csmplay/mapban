@@ -17,8 +17,8 @@
     "apps/*"
   ],
   "devDependencies": {
-    "eslint": "~8.57.0",
+    "eslint": "8.57.1",
     "nx": "22.3.3",
-    "prettier": "^3.5.3"
+    "prettier": "3.7.4"
   }
 }
