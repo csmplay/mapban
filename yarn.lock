@@ -4108,7 +4108,7 @@ __metadata:
     lru-cache: "npm:11.2.4"
     lucide-react: "npm:^0.562.0"
     next: "npm:16.1.1"
-    postcss: "npm:8.5.6"
+    postcss: "npm:8.5.10"
     react: "npm:19.2.3"
     react-dom: "npm:19.2.3"
     rimraf: "npm:6.1.2"
@@ -6089,7 +6089,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.6, postcss@npm:^8.4.41":
+"postcss@npm:8.5.10":
+  version: 8.5.10
+  resolution: "postcss@npm:8.5.10"
+  dependencies:
+    nanoid: "npm:^3.3.11"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10c0/c592dffa0c4873b401f01955b265538d9942f425040df5e2b8f0ad34c83773a792ea0fa5859ccc99cfb5b955b4ebff118ab7056315388dc83b107b0fa8313576
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.41":
   version: 8.5.6
   resolution: "postcss@npm:8.5.6"
   dependencies:
