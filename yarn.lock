@@ -224,6 +224,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint-community/eslint-utils@npm:4.9.1":
+  version: 4.9.1
+  resolution: "@eslint-community/eslint-utils@npm:4.9.1"
+  dependencies:
+    eslint-visitor-keys: "npm:^3.4.3"
+  peerDependencies:
+    eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+  checksum: 10c0/dc4ab5e3e364ef27e33666b11f4b86e1a6c1d7cbf16f0c6ff87b1619b3562335e9201a3d6ce806221887ff780ec9d828962a290bb910759fd40a674686503f02
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.7.0, @eslint-community/eslint-utils@npm:^4.8.0":
   version: 4.9.0
   resolution: "@eslint-community/eslint-utils@npm:4.9.0"
@@ -772,12 +783,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:16.1.1":
-  version: 16.1.1
-  resolution: "@next/eslint-plugin-next@npm:16.1.1"
+"@next/eslint-plugin-next@npm:16.3.4":
+  version: 16.3.4
+  resolution: "@next/eslint-plugin-next@npm:16.3.4"
   dependencies:
+    "@eslint-community/eslint-utils": "npm:4.9.1"
     fast-glob: "npm:3.3.1"
-  checksum: 10c0/acff35898c5077b7a7bce50f800f7015eb0ab1bdf9d13ad80f7af909af1085c99774d1b2f10a056cfd92ef9bcc13d3b5209ffd592ad7c45ac2bb1b7d15d74204
+  checksum: 10c0/66ed6384cab5c13d09eff544a596e676b9ad7614a311f30366f273d29df569dfab007606a2e32ceba968bd1a61f505782b5aab1fd656b06503abf1912ec97573
   languageName: node
   linkType: hard
 
@@ -3441,11 +3453,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:16.1.1":
-  version: 16.1.1
-  resolution: "eslint-config-next@npm:16.1.1"
+"eslint-config-next@npm:16.3.4":
+  version: 16.3.4
+  resolution: "eslint-config-next@npm:16.3.4"
   dependencies:
-    "@next/eslint-plugin-next": "npm:16.1.1"
+    "@next/eslint-plugin-next": "npm:16.3.4"
     eslint-import-resolver-node: "npm:^0.3.6"
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.32.0"
@@ -3460,7 +3472,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/3cc10f435857045f40904b099e94e6b81975c3c9aa10d20294d5907ca03df8f5ed721631be3d22cf3cfe904a6395081d877b001e922c5b8ff6d5ea0d8a074f26
+  checksum: 10c0/70d8a2e5232d14a2a56105a0957c57e57303f1d60746b4c2564fb52d39cb9b0c8ecef6fb8e97c2ec0c364ed2058818fd3385e5ad449b33a033e1f7c457284f33
   languageName: node
   linkType: hard
 
@@ -4101,7 +4113,7 @@ __metadata:
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     eslint: "npm:9.39.2"
-    eslint-config-next: "npm:16.1.1"
+    eslint-config-next: "npm:16.3.4"
     framer-motion: "npm:^12.23.12"
     glob: "npm:13.0.0"
     input-otp: "npm:^1.4.2"
